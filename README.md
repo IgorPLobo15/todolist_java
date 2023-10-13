@@ -8,22 +8,9 @@ Certifique-se de ter as seguintes ferramentas instaladas em seu ambiente de dese
 
 - Java Development Kit (JDK)
 - Spring Boot
-- MySQL H2 database
+- MySQL H2 database port: 8080
 - Apache Maven
 
-## Configuração do Banco de Dados
 
-Antes de executar a aplicação, você precisa configurar o banco de dados MySQL. Abra o arquivo `src/main/resources/application.properties` e atualize as configurações do banco de dados, como URL, nome de usuário e senha:
 
-```properties
-spring.datasource.url=jdbc:mysql://localhost:3306/seubancodedados
-spring.datasource.username=seuusuario
-spring.datasource.password=suasenha
-
-## Executando a Aplicação
-
-Após configurar o banco de dados, você pode executar a aplicação usando o Maven. Na raiz do projeto, execute o seguinte comando:
-
-```bash
-mvn spring-boot:run
 
